@@ -1,0 +1,17 @@
+.input {
+  display: block;
+
+  margin-bottom: 10px;
+  padding: 5px;
+
+  border-radius: 3px;
+  border: 2px solid rgb(0, 204, 255);
+  outline: none;
+
+  transition: border-color 250ms linear;
+}
+
+.input:hover,
+.input:focus {
+  border-color: rgb(0, 162, 255);
+}
